@@ -23,7 +23,7 @@ function App() {
 
   return (
       <div>
-          <h1>Task Management (Monolith)</h1>
+          <h1>Listă de cumpărături (Monolith)</h1>
           <TaskForm onAddTask={addTask} />
           <TaskList
               tasks={tasks}
